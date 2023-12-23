@@ -1,0 +1,30 @@
+header {
+  background: url(../imagens/detalhe-topo.png) no-repeat right top;
+  height: 230px;
+}
+header img {
+  padding-top: 20px;
+}
+
+header nav ul {
+  display: flex;
+  padding-top: 40px;
+}
+header nav ul li a {
+  padding: 10px 30px;
+  color: #fff;
+  background: #B10030 url(../imagens/divisor.png) no-repeat center right;
+}
+header nav ul li a:hover {
+  background-color: #E10039;
+} 
+.divisor {
+  background-image: none;
+}
+.home #home, .brasil #brasil, .internacional #internacional, .economia #economia, .saude #saude, .ciencia #ciencia, .fotos #fotos {
+  background-color: #E10039;
+} 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
